@@ -1,8 +1,8 @@
 import streamlit as st
 
 def main():
-    st.title('Birthday Wishes App')
-    st.markdown('### Send your warm wishes to your friend!')
+    st.title('Birthday Wishes ')
+    st.markdown('### Sent my warm wishes to my friend Naveen!')
 
     # Specify the path to your friend's image file
     image_path = 'WhatsApp.jpeg'  # Replace with your actual file path
@@ -17,10 +17,6 @@ def main():
     # Sender's name input
     sender_name = st.text_input('Venkatesh', '')
 
-    # Display the message and sender's name
-    if st.button('Send Wishes'):
-        if birthday_message and sender_name:
-            st.success(f"Dear {sender_name}, your message: '{birthday_message}' has been sent to your friend!")
 
 if __name__ == '__main__':
     main()
