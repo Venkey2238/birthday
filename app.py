@@ -8,7 +8,7 @@ def main():
     image_path = 'WhatsApp.jpeg'  # Replace with your actual file path
 
     # Display the image
-    st.image(image_path, caption='Your friend', use_column_width=True)
+    st.image(image_path, caption='Naveen', use_column_width=True)
 
     # Birthday message textarea
     st.markdown('### Happy BirthDay My dear friend live a happy life and party hard')
