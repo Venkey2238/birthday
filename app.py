@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     st.title('Birthday Wishes ')
-    st.markdown('### Sent my warm wishes to my friend Naveen!')
+    st.markdown('### my warm wishes to my friend Naveen!')
 
     # Specify the path to your friend's image file
     image_path = 'WhatsApp.jpeg'  # Replace with your actual file path
